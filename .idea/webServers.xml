@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9402f346-6266-498e-81c4-91a66a5f67d6" name="RHLE" url="">
+        <fileTransfer accessType="SFTP" host="172.16.22.133" port="22" sshConfigId="468b80e5-ab93-4c74-80bd-712c4541b3e1" sshConfig="root@172.16.22.133:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
