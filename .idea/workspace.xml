@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d05c4708-8f31-4e15-96c0-e9a682f78b1b" name="Changes" comment="020224_init">
+    <list default="true" id="d05c4708-8f31-4e15-96c0-e9a682f78b1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/JetClient/state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/console.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/node.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +44,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2bgBNqfhOGighwsNQAvxa4N5Aka" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,11 +58,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Node.js.RHLE.executor": "Run",
     "Node.js.indes.js.executor": "Run",
     "Node.js.test.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,32 +72,27 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "sshConfig://root@172.16.22.133:22 password/usr/bin/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Shelf.Project.Settings"
+    "settings.editor.selected.configurable": "preferences.customizations"
   }
 }]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="/private/var/folders/1c/qj65fy793jn7lm4gc0cktmcr0000gn/T/qodana_output/qodana.sarif.json" />
-        <option name="reportGuid" value="02d4823b-eb8a-4aaa-b2f2-9bdf852d7bc9" />
-        <option name="reportName" value="proyecto/qodana/2024-01-30" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="/private/var/folders/1c/qj65fy793jn7lm4gc0cktmcr0000gn/T/qodana_output/qodana.sarif.json" reportGuid="02d4823b-eb8a-4aaa-b2f2-9bdf852d7bc9" reportId="proyecto/qodana/2024-01-30" />
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="RHLE" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+    <configuration name="RHLE" type="NodeJSConfigurationType" path-to-js-file="test.js" show_console_on_std_out="true" working-dir="$PROJECT_DIR$">
+      <output_file path="$PROJECT_DIR$/logs/console.log" is_save="true" />
+      <log_file alias="logs" path="$PROJECT_DIR$/logs/node.log" show_all="true" skipped="false" />
       <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+    <option name="myConnectionId" value="" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d05c4708-8f31-4e15-96c0-e9a682f78b1b" name="Changes" comment="" />
@@ -96,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706626804515</updated>
-      <workItem from="1706626805590" duration="10997000" />
+      <workItem from="1706626805590" duration="12658000" />
+      <workItem from="1706919240841" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="Full">
       <option name="closed" value="true" />
@@ -122,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706903494638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="020224_init">
+      <option name="closed" value="true" />
+      <created>1706906574515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706906574515</updated>
+    </task>
+    <task id="LOCAL-00005" summary="020224_init">
+      <option name="closed" value="true" />
+      <created>1706906583051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706906583051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
