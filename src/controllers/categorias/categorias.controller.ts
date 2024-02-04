@@ -4,25 +4,25 @@ import {Request, Response} from 'express';
 const prisma = new PrismaClient();
 
 const getMethod = async (req: Request, res: Response) => {
-try {
+    try {
         const result = await prisma.categorias.findMany();
         res.status(200).json(result);
-     } catch (e) {
-         console.log("error:controller::categorias", e);
-         return res.status(500).json(e);
-}
-}
+    } catch (e) {
+        console.log("error:controller::categorias", e);
+        return res.status(500).json(e);
+         }
+    }
 
 const getMethodByID = async (req: Request, res: Response) => {
     const {id} = req.params;
     try {
         const result = await prisma.categorias.findUnique({where: {id: parseInt(id)}});
-        if(result){
+        if (result) {
             return res.status(200).json(result);
         }
         return res.status(404).json({message: 'La categoria buscada no existe'})
 
-    } catch(e) {
+    } catch (e) {
         console.log("error:controller::categorias", e);
         return res.status(500).json(e);
     }
@@ -42,7 +42,7 @@ const postMethod = async (req: Request, res: Response) => {
             data: body
         });
         res.status(200).json(result);
-    } catch(e) {
+    } catch (e) {
         console.log("error:controller::categorias", e);
         return res.status(500).json(e);
     }
@@ -63,8 +63,8 @@ const putMethod = async (req: Request, res: Response) => {
 
         }
         return res.status(404).json({message: 'La categoria buscada no existe'});
-    } catch(e) {
-        console.log("error:controller::categorias",e);
+    } catch (e) {
+        console.log("error:controller::categorias", e);
         return res.status(500).json(e);
 
 
@@ -75,14 +75,14 @@ const deleteMethod = async (req: Request, res: Response) => {
     const {id} = req.params;
 
 
-    try{
+    try {
         const exist = await prisma.categorias.findUnique({where: {id: parseInt(id)}});
 
         if (exist) {
             const result = await prisma.categorias.delete({
                 where: {id: parseInt(id)}
             });
-            return res.status(200).json( { message: 'La categoría fue eliminada', result});
+            return res.status(200).json({message: 'La categoría fue eliminada', result});
 
 
         }
