@@ -1,0 +1,92 @@
+{
+  id: "8d2c0f2c-ed05-4d8b-9dd4-8a557c2c42c0",
+  name: "Categorias",
+  icon: "FOLDER",
+  sortWeight: 1000000,
+  requests: [
+    {
+      id: "dd17abbb-82ba-474d-84b7-f8b389858445",
+      name: "getMethod",
+      method: "GET",
+      url: "http://172.16.22.133:4000/api/v1/categorias",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON"
+      }
+    },
+    {
+      id: "7ddc0e29-a5a9-40a1-9ed6-4cacaf76916e",
+      name: "getMethodById",
+      method: "GET",
+      url: "http://172.16.22.133:4000/api/v1/categorias/200",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON"
+      }
+    },
+    {
+      id: "2ac2249c-9c70-4d16-a7ea-fbcabf82556f",
+      name: "postMethod",
+      method: "POST",
+      url: "http://172.16.22.133:4000/api/v1/categorias",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON",
+        raw: '{\
+  "nombre": "xxxXXXXXDDD"\
+}'
+      }
+    },
+    {
+      id: "4c9993a8-df87-4ca2-819f-c2fde753881d",
+      name: "putMethod",
+      method: "PUT",
+      url: "http://172.16.22.133:4000/api/v1/categorias/200",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON",
+        raw: '{\
+  "nombre": "xxxXXXXXDDD"\
+}'
+      }
+    },
+    {
+      id: "17390b9b-3d10-471a-937f-9704193f4d49",
+      name: "deleteMethod",
+      method: "DELETE",
+      url: "http://172.16.22.133:4000/api/v1/categorias/200",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON",
+        raw: '{\
+  "nombre": "xxxXXXXXDDD"\
+}'
+      }
+    }
+  ]
+}

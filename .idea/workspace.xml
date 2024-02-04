@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d05c4708-8f31-4e15-96c0-e9a682f78b1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JetClient/state.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/console.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/node.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jetclient/Webapp/Categorias/8d2c0f2c-ed05-4d8b-9dd4-8a557c2c42c0.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jetclient/Webapp/clientes/5c344bb1-ad13-4d90-9af4-5d5ab7df07d4.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jetclient/Webapp/db2ba915-8e15-4d55-891a-671ea55f858e.json5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/migrations/20240202231005_inicial/migration.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/migrations/20240203155748_inicial/migration.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/migrations/20240203183655_update_info/migration.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/categorias/categorias.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/clientes/clientes.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/pedidos/pedidos.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/productos/pedidos.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/productos/productos.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/usuarios/usuarios.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/categorias/categorias.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/clientes/clientes.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/pedidos/pedidos.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/productos/pedidos.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/productos/productos.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/usuarios/usuarios.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JetClient/state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JetClient/state.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Proyecto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/console.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/console.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +50,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="package.json" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -38,15 +65,149 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/controllers/categorias/categorias.controller.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/controllers/usuarios/usuarios.controller.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/routes/usuarios/usuarios.routes.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-5c344bb1.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-5c344bb1.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-8d2c0f2c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-8d2c0f2c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-8d2c0f2c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-drafts.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-pre-request-script-drafts.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-5c344bb1.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-5c344bb1.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-8d2c0f2c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-8d2c0f2c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-8d2c0f2c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-db2ba915.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-drafts.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///folder-test-script-drafts.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-04239480.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-17390b9b.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-17390b9b.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-280a6f5b.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-280a6f5b.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-2ac2249c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-2ac2249c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-2ac2249c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-4c9993a8.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-4c9993a8.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-7ddc0e29.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-7ddc0e29.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-04239480.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-17390b9b.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-17390b9b.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-1eb2f66d.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-280a6f5b.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-280a6f5b.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-2ac2249c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-2ac2249c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-2ac2249c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-4c9993a8.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-4c9993a8.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-7ddc0e29.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-7ddc0e29.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-86f1a02f.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-d7c28f10.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-e565c7ef.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-f54d81c7.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2bgBNqfhOGighwsNQAvxa4N5Aka" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,33 +220,116 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Node.js.RHLE.executor": "Run",
+    "HTTP Request.All in proyecto-endpoints.executor": "Run",
+    "Node.js.RHLE.executor": "Debug",
     "Node.js.indes.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
     "Node.js.test.js.executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Plugins Suggestion": "Plugin suggestions available",
+    "Notification.DoNotAsk-Plugins Suggestion": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/skyones/WebstormProjects/Proyecto/src/controllers",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "sshConfig://root@172.16.22.133:22 password/usr/bin/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.customizations"
+    "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "ts.external.directory.path": "/Users/skyones/WebstormProjects/Proyecto/node_modules/typescript/lib"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="/private/var/folders/1c/qj65fy793jn7lm4gc0cktmcr0000gn/T/qodana_output/qodana.sarif.json" reportGuid="02d4823b-eb8a-4aaa-b2f2-9bdf852d7bc9" reportId="proyecto/qodana/2024-01-30" />
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="/private/var/folders/1c/qj65fy793jn7lm4gc0cktmcr0000gn/T/qodana_output/qodana.sarif.json" />
+        <option name="reportGuid" value="fdf49a01-3b92-4dc0-ada5-f44bdf838fec" />
+        <option name="reportName" value="proyecto/qodana/2024-02-02" />
+      </LocalReportPersistedInfo>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="RHLE" type="NodeJSConfigurationType" path-to-js-file="test.js" show_console_on_std_out="true" working-dir="$PROJECT_DIR$">
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/private/var/folders/1c/qj65fy793jn7lm4gc0cktmcr0000gn/T/qodana_output/qodana.sarif.json" reportGuid="fdf49a01-3b92-4dc0-ada5-f44bdf838fec" reportId="proyecto/qodana/2024-02-02" />
+    </option>
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/controllers" />
+      <recent name="$PROJECT_DIR$/src/routes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="All in proyecto-endpoints" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/proyecto-endpoints.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="RHLE" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/src/index.js" show_console_on_std_out="true" working-dir="$PROJECT_DIR$">
       <output_file path="$PROJECT_DIR$/logs/console.log" is_save="true" />
       <log_file alias="logs" path="$PROJECT_DIR$/logs/node.log" show_all="true" skipped="false" />
       <method v="2" />
     </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.RHLE" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
@@ -101,7 +345,9 @@
       <option name="presentableId" value="Default" />
       <updated>1706626804515</updated>
       <workItem from="1706626805590" duration="12658000" />
-      <workItem from="1706919240841" duration="1324000" />
+      <workItem from="1706919240841" duration="12938000" />
+      <workItem from="1706934847727" duration="30549000" />
+      <workItem from="1707060173444" duration="9278000" />
     </task>
     <task id="LOCAL-00001" summary="Full">
       <option name="closed" value="true" />
@@ -143,11 +389,25 @@
       <option name="project" value="LOCAL" />
       <updated>1706906583051</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="All">
+      <option name="closed" value="true" />
+      <created>1706920604132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706920604132</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/server.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -165,6 +425,18 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Full" />
     <MESSAGE value="020224_init" />
-    <option name="LAST_COMMIT_MESSAGE" value="020224_init" />
+    <MESSAGE value="All" />
+    <option name="LAST_COMMIT_MESSAGE" value="All" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes/categorias/categorias.routes.ts</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

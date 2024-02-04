@@ -1,14 +1,10 @@
-/home/jaraujo/webapp/test.js:1
-const input = document.querySelectorAll('.input');
-              ^
-
-ReferenceError: document is not defined
-    at Object.<anonymous> (/home/jaraujo/webapp/test.js:1:15)
-    at Module._compile (node:internal/modules/cjs/loader:1256:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
-    at Module.load (node:internal/modules/cjs/loader:1119:32)
-    at Module._load (node:internal/modules/cjs/loader:960:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
-    at node:internal/main/run_main_module:23:47
-
-Node.js v18.18.2
+Debugger listening on ws://127.0.0.1:41067/f7dc6208-fed5-4764-b830-fbacfb6c41ee
+For help, see: https://nodejs.org/en/docs/inspector
+[debugConnectionForwarder] Error connecting to inspector {"port":41067} Error: connect ECONNREFUSED ::1:41067
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '::1',
+  port: 41067
+}

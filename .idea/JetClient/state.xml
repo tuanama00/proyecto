@@ -1,6 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="id" value="04239480-7407-4740-9f72-4d7aec09fea8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="environmentGroups">
+      <list>
+        <environmentGroupState>
+          <option name="environments">
+            <list>
+              <environmentState>
+                <option name="id" value="server" />
+                <option name="name" value="server" />
+              </environmentState>
+            </list>
+          </option>
+          <option name="id" value="remote" />
+          <option name="name" value="remote" />
+        </environmentGroupState>
+      </list>
+    </option>
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="folders">
+            <list>
+              <folderState>
+                <option name="id" value="8d2c0f2c-ed05-4d8b-9dd4-8a557c2c42c0" />
+                <option name="name" value="Categorias" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="dd17abbb-82ba-474d-84b7-f8b389858445" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="/api/v1/get" />
+                      <option name="url" value="{{baseUrl}}/api/v1/categorias" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="7ddc0e29-a5a9-40a1-9ed6-4cacaf76916e" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="/api/v1/getById" />
+                      <option name="url" value="{{baseUrl}}/api/v1/categorias/200" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;xxxXXXXXDDD&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="2ac2249c-9c70-4d16-a7ea-fbcabf82556f" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="/api/v1/post" />
+                      <option name="url" value="{{baseUrl}}/api/v1/categorias" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;xxxXXXXXDDD&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="4c9993a8-df87-4ca2-819f-c2fde753881d" />
+                      <option name="method" value="PUT" />
+                      <option name="name" value="/api/v1/put" />
+                      <option name="url" value="{{baseUrl}}/api/v1/categorias/200" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;xxxXXXXXDDD&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="17390b9b-3d10-471a-937f-9704193f4d49" />
+                      <option name="method" value="DELETE" />
+                      <option name="name" value="/api/v1/delete" />
+                      <option name="url" value="{{baseUrl}}/api/v1/categorias/200" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="1000000" />
+              </folderState>
+              <folderState>
+                <option name="id" value="5c344bb1-ad13-4d90-9af4-5d5ab7df07d4" />
+                <option name="name" value="usuarios" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="d7c28f10-25e4-40a7-81a0-9363adc28c32" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="/api/v1/get" />
+                      <option name="url" value="{{baseUrl}}/api/v1/usuarios" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="86f1a02f-bca2-4a01-879c-a73f44e31836" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="/api/v1/getById" />
+                      <option name="url" value="{{baseUrl}}/api/v1/usuarios/41" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;nombres&quot;: &quot;nombres_vn27&quot;,&#10;  &quot;apellidos&quot;: &quot;apellidos_dV44&quot;,&#10;  &quot;correo&quot;: &quot;correo_IH61&quot;,&#10;  &quot;clave&quot;: &quot;clave_DH97&quot;,&#10;  &quot;role&quot;: &quot;role_KY08&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="f54d81c7-107f-4555-a5fc-6fe59ac0a287" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="/api/v1/post" />
+                      <option name="testScript" value="jc.response.to.have.status(200)&#10;" />
+                      <option name="url" value="{{baseUrl}}/api/v1/usuarios" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;nombres&quot;: &quot;ABCEDS&quot;,&#10;  &quot;apellidos&quot;: &quot;xddddd&quot;,&#10;  &quot;correo&quot;: &quot;assbj9d@sds.com&quot;,&#10;  &quot;clave&quot;: &quot;12345678&quot;,&#10;  &quot;role&quot;: &quot;admin&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="1eb2f66d-e0f3-4f86-a21c-db1bec3fb20c" />
+                      <option name="method" value="PUT" />
+                      <option name="name" value="/api/v1/put" />
+                      <option name="url" value="{{baseUrl}}/api/v1/usuarios/41" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;xxxXXXXXDDD&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="e565c7ef-0948-4d28-a7ae-be5ca71bf5a7" />
+                      <option name="method" value="DELETE" />
+                      <option name="name" value="/api/v1/delete" />
+                      <option name="url" value="{{baseUrl}}/api/v1/usuarios/2" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="2000000" />
+              </folderState>
+            </list>
+          </option>
+          <option name="icon" value="TEST_ROOT" />
+          <option name="id" value="db2ba915-8e15-4d55-891a-671ea55f858e" />
+          <option name="name" value="Webapp" />
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+          <option name="variables">
+            <variablesState>
+              <option name="json" value="{&#10;  'server': {&#10;    'baseUrl': 'http://172.16.22.133:4000'&#10;  }&#10;}" />
+            </variablesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
     <option name="id" value="245378ab-7726-4124-8db4-f135758bddcb" />
+    <option name="selectedEnvironmentIds">
+      <set>
+        <option value="server" />
+      </set>
+    </option>
   </component>
 </project>

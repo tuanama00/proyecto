@@ -11,7 +11,7 @@ datasource db {
 }
 
 model Usuarios{
-  id int @id @default(autoincrement())
+  id Int @id @default(autoincrement())
   nombres String
   apellidos String
   correo String @unique
@@ -21,20 +21,53 @@ model Usuarios{
   fechaActualizacion DateTime @default(now())
 }
 model Clientes{
-  id int @id @default(autoincrement())
+  id Int @id @default(autoincrement())
+  tipoDocumento String
+  noDocumento String
+  edad Int
+  nombres String
+  apellido String
+  correo String
+  telefono String
+  direccion String
+  pedidos Pedidos[]
+  fechaCreacion DateTime @default(now())
+  fechaActualizacion DateTime @updatedAt
 }
 model Productos{
-  id int @id @default(autoincrement())
+  id Int @id @default(autoincrement())
+  nombre String
+  precio Decimal
+  pedidosItems PedidosItems[]
+  imagen String @default("https://via.placeholder.com/300")
+  fechaCreacion DateTime @default(now())
+  fechaActualizacion DateTime @updatedAt
 }
+
 model Categorias{
-  id int @id @default(autoincrement())
+  id Int @id @default(autoincrement())
+  nombre String
+  fechaCreacion DateTime @default(now())
+  fechaActualizacion DateTime @updatedAt
 }
 
 model Pedidos{
-  id int @id @default(autoincrement())
-
+  id Int @id @default(autoincrement())
+  cliente Clientes @relation(fields: [clienteId], references: [id])
+  clienteId Int
+  subtotal Decimal
+  total Decimal
+  fechaCreacion DateTime @default(now())
+  fechaActualizacion DateTime @updatedAt
 }
+
 model PedidosItems{
-  id int @id @default(autoincrement())
-
+  id Int @id @default(autoincrement())
+  producto Productos @relation(fields: [productoId], references: [id])
+  productoId Int
+  cantidad Int
+  subtotal Decimal
+  fechaCreacion DateTime @default(now())
+  fechaActualizacion DateTime @updatedAt
 }
+

@@ -1,0 +1,93 @@
+{
+  id: "5c344bb1-ad13-4d90-9af4-5d5ab7df07d4",
+  name: "clientes",
+  icon: "FOLDER",
+  sortWeight: 2000000,
+  requests: [
+    {
+      id: "d7c28f10-25e4-40a7-81a0-9363adc28c32",
+      name: "getMethod",
+      method: "GET",
+      url: "http://172.16.22.133:4000/api/v1/clientes",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON"
+      }
+    },
+    {
+      id: "86f1a02f-bca2-4a01-879c-a73f44e31836",
+      name: "getMethodById",
+      method: "GET",
+      url: "http://172.16.22.133:4000/api/v1/clientes/200",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON"
+      }
+    },
+    {
+      id: "f54d81c7-107f-4555-a5fc-6fe59ac0a287",
+      name: "postMethod",
+      method: "POST",
+      url: "http://172.16.22.133:4000/api/v1/clientes",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON",
+        raw: '{\
+  "nombre": "xxxXXXXXDDD",\
+  "tipoDcoumento": "DNI"\
+}'
+      }
+    },
+    {
+      id: "1eb2f66d-e0f3-4f86-a21c-db1bec3fb20c",
+      name: "putMethod",
+      method: "PUT",
+      url: "http://172.16.22.133:4000/api/v1/categorias/200",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON",
+        raw: '{\
+  "nombre": "xxxXXXXXDDD"\
+}'
+      }
+    },
+    {
+      id: "e565c7ef-0948-4d28-a7ae-be5ca71bf5a7",
+      name: "deleteMethod",
+      method: "DELETE",
+      url: "http://172.16.22.133:4000/api/v1/categorias/200",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json"
+        }
+      ],
+      body: {
+        type: "JSON",
+        raw: '{\
+  "nombre": "xxxXXXXXDDD"\
+}'
+      }
+    }
+  ]
+}
