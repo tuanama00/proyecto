@@ -3,6 +3,7 @@ import {Request, Response} from 'express';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
+
 const prisma = new PrismaClient();
 
 const getMethod = async (req: Request, res: Response) => {
@@ -137,16 +138,18 @@ const loginMethod = async (req: Request, res: Response) => {
             correo: correoExistente?.correo,
             role: correoExistente?.role
         };
+        console.log(process.env.SECRET_KEY);
 
         if (correoExistente) {
             const match = await bcrypt.compare(body.clave, correoExistente.clave);
             if (match) {
-                const token = jwt.sign({payload}, process.env.SECRET_KEY || 'secret', {
-                    expiresIn: '1h'
+                const token = jwt.sign({payload}, process.env.SECRET_KEY!, {
+                    expiresIn: '24h'
                 });
+                console.log(process.env.SECRET_KEY);
                 return res.status(200).json({message: "Usuario Autenticado", jwt: token, userData: payload});
             }
-            return res.status(401).json({message: 'Usuario o contraseña incorrecta'});
+            return res.status(401).json({message: 'Credenciales incorrecta'});
         }
     } catch (e) {
         console.log("error:controller::usuarios", e);
