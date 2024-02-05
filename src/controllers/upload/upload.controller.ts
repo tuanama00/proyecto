@@ -1,5 +1,6 @@
 import {Request, Response} from 'express';
 import {PrismaClient} from '@prisma/client';
+import fs from 'fs/promises';
 
 
 const prisma = new PrismaClient();
@@ -26,23 +27,34 @@ const uploadMethod = async (req: Request, res: Response) => {
 
 
 
+const deleteMethod = async (req: Request, res: Response) => {
+    const {id} = req.params;
 
-// const putMethodById = async (req: Request, res: Response) => {
-//     const {id} = req.params;
-//     const {body} = req;
-//     try{
-//         const result = await prisma.productos.update({
-//             where: {id: parseInt(id)},
-//             data: body
-//         })
-//         res.status(200).json(result);
-//     }catch(e){
-//
-//
-//
-//         console.log("error:controller::productos",e);
+    try {
+        const fileRecord = await prisma.files.findUnique({where: {id: parseInt(id)}});
+
+        if (fileRecord) {
+            // Eliminar el archivo del disco
+            await fs.unlink(fileRecord.path);
+
+            // Eliminar el registro de la base de datos
+            const result = await prisma.files.delete({
+                where: { id: parseInt(id) }
+            });
+
+            return res.status(200).json({message: 'El archivo fue eliminado', result});
+        }
+
+        return res.status(404).json({message: 'El archivo no existe'});
+    } catch (e) {
+        console.log("error:controller::categorias", e);
+        return res.status(500).json(e);
+    }
+};
+
 
 
 export {
     uploadMethod,
+    deleteMethod
 }
