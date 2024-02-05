@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import {PrismaClient} from '@prisma/client'
 import allRoutes from './routes'
+import {notFoundHandler} from './middlewares/errorsHandlers';
 
 dotenv.config();
 
@@ -14,6 +15,7 @@ const app = express();
 
 // middleware
 app.use(cors({origin: '*'}))
+app.use(notFoundHandler)
 app.use(express.json());
 
 
