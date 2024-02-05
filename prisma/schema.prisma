@@ -75,6 +75,7 @@ model files{
   filename String
   mimetype String
   path String
+  size Int
   fechaCreacion DateTime @default(now())
   fechaActualizacion DateTime @updatedAt
 }

@@ -282,7 +282,7 @@
                               <formDataParameterState>
                                 <option name="key" value="file" />
                                 <option name="type" value="FILE" />
-                                <option name="value" value="$USER_HOME$/Desktop/Pendiente/ATP HW - WOM - CEM F2-DATACENTER-MEDv2.docx" />
+                                <option name="value" value="$USER_HOME$/Desktop/IMG_8700.PNG" />
                               </formDataParameterState>
                             </list>
                           </option>
@@ -326,11 +326,6 @@
       </list>
     </option>
     <option name="id" value="245378ab-7726-4124-8db4-f135758bddcb" />
-    <option name="runnerIdsHistory">
-      <map>
-        <entry key="6ed22a53-3ea7-400d-a3ea-c5c720af1942" value="08f247c9-6cf8-44ba-9098-9874e2390dad|" />
-      </map>
-    </option>
     <option name="selectedEnvironmentIds">
       <set>
         <option value="server" />

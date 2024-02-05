@@ -4,21 +4,46 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d05c4708-8f31-4e15-96c0-e9a682f78b1b" name="Changes" comment="Middlwares">
-      <change afterPath="$PROJECT_DIR$/src/controllers/upload/upload.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middlewares/upload/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/upload/upload.routes.ts" afterDir="false" />
+    <list default="true" id="d05c4708-8f31-4e15-96c0-e9a682f78b1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/npm-shrinkwrap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030513-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030538-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030539-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030540-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030710-DALL·E_2023-11-29_18.56.55_-_A_realistic_space-themed_wallpaper_in_a_wide_format,_featuring_a_stunning_cosmic_landscape._The_image_showcases_a_nebula_with_swirling_hues_of_yellow,.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030725-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030727-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030728-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030729-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030730-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-030918-Exportacion.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-031053-Exportacion.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-031058-Exportacion.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-031059-Exportacion.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-031100-Exportacion.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-031101-Exportacion.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-031110-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-031111-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-033428-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-033429-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-033430-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-033431-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/04022024-033432-IMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/D04022024-031304-TIMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/D04022024-031306-TIMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/D04022024-031308-TIMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/D04022024-031309-TIMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/D04022024-031311-TIMG_8700.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uploads/D04022024-031312-TIMG_8700.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JetClient/state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JetClient/state.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fcf4658d-2f8b-4485-9f3e-4d3b8d523952.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fcf4658d-2f8b-4485-9f3e-4d3b8d523952.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fcf4658d-2f8b-4485-9f3e-4d3b8d523952/storage_v2/_src_/database/store.4fiKBg/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fcf4658d-2f8b-4485-9f3e-4d3b8d523952/storage_v2/_src_/database/store.4fiKBg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fcf4658d-2f8b-4485-9f3e-4d3b8d523952/storage_v2/_src_/database/store.4fiKBg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fcf4658d-2f8b-4485-9f3e-4d3b8d523952/storage_v2/_src_/database/store.4fiKBg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fcf4658d-2f8b-4485-9f3e-4d3b8d523952/storage_v2/_src_/database/store.4fiKBg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fcf4658d-2f8b-4485-9f3e-4d3b8d523952/storage_v2/_src_/database/store.4fiKBg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/productos/pedidos.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/productos/pedidos.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/upload/upload.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/upload/upload.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/upload/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/upload/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +75,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "tuanama00"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tuanama00&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -65,32 +90,10 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///folder-pre-request-script-b7313e25.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///folder-pre-request-script-b7313e25.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///folder-test-script-b7313e25.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///folder-test-script-b7313e25.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-08f247c9.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-08f247c9.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-08f247c9.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-08f247c9.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-7ddc0e29.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-7ddc0e29.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///pre-request-script-ab71c048.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-08f247c9.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-08f247c9.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-08f247c9.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-08f247c9.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-7ddc0e29.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-7ddc0e29.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///pre-request-script-ab71c048.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///test-script-ab71c048.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-dd17abbb.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///test-script-ab71c048.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -114,7 +117,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
@@ -254,7 +256,11 @@
       <workItem from="1707060173444" duration="12361000" />
       <workItem from="1707078087537" duration="818000" />
       <workItem from="1707078916586" duration="1859000" />
-      <workItem from="1707083229444" duration="17407000" />
+      <workItem from="1707083229444" duration="20724000" />
+      <workItem from="1707107703780" duration="835000" />
+      <workItem from="1707108568432" duration="26000" />
+      <workItem from="1707108603544" duration="861000" />
+      <workItem from="1707109548503" duration="2551000" />
     </task>
     <task id="LOCAL-00001" summary="Full">
       <option name="closed" value="true" />
@@ -336,7 +342,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707091581158</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Upload con filtrado y validacion">
+      <option name="closed" value="true" />
+      <created>1707104389592</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707104389592</updated>
+    </task>
+    <task id="LOCAL-00012" summary="upload">
+      <option name="closed" value="true" />
+      <created>1707104507627</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707104507627</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +403,8 @@
     <MESSAGE value="Todo Ok" />
     <MESSAGE value="Middlewares" />
     <MESSAGE value="Middlwares" />
-    <option name="LAST_COMMIT_MESSAGE" value="Middlwares" />
+    <MESSAGE value="Upload con filtrado y validacion" />
+    <MESSAGE value="upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload" />
   </component>
 </project>
