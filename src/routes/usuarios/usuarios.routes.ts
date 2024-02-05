@@ -3,7 +3,8 @@ import {getMethod,
     getMethodByID,
     postMethod,
     putMethod,
-    deleteMethod} from "../../controllers/usuarios/usuarios.controller";
+    deleteMethod,
+    loginMethod} from "../../controllers/usuarios/usuarios.controller";
 
 
 const router = express.Router();
@@ -15,5 +16,6 @@ router.get('/:id', getMethodByID); //obtiene una categoria por id
 router.post('/', postMethod);//crea una categoria
 router.put('/:id', putMethod);//actualiza una categoria
 router.delete('/:id', deleteMethod);//elimina una categoria
+router.post('/login', loginMethod);//loguea una categoria
 
 export default router;
