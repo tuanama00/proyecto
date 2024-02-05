@@ -1,5 +1,6 @@
 import {PrismaClient} from '@prisma/client';
 import {Request, Response} from 'express';
+import bcrypt from 'bcrypt';
 
 const prisma = new PrismaClient();
 
@@ -44,14 +45,18 @@ const postMethod = async (req: Request, res: Response) => {
         if (correoExistente) {
             return res.status(400).json({message: 'Correo utilizado. Elija otro correo.'});
         }
+        // Cifrar la contraseña antes de almacenarla
+        const hashedPassword = await bcrypt.hash(body.clave, 10);
 
         const result = await prisma.usuarios.create({
-            data: body
+            data: {
+                ...body,
+                clave: hashedPassword,
+            },
         });
 
         const respuesta = {...result, message: 'Usuario creado satisfactoriamente'};
         res.status(200).json(respuesta);
-
     } catch (e) {
         console.log("error:controller::usuarios", e);
         return res.status(500).json(e);
