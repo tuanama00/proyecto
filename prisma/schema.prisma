@@ -70,4 +70,12 @@ model PedidosItems{
   fechaCreacion DateTime @default(now())
   fechaActualizacion DateTime @updatedAt
 }
+model files{
+  id Int @id @default(autoincrement())
+  filename String
+  mimetype String
+  path String
+  fechaCreacion DateTime @default(now())
+  fechaActualizacion DateTime @updatedAt
+}
 

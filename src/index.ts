@@ -15,11 +15,8 @@ const app = express();
 
 // middleware
 app.use(cors({origin: '*'}))
-app.use(notFoundHandler)
 app.use(express.json());
-
-
 app.use('/api/v1', allRoutes);
-
+app.use(notFoundHandler);
 
 export default app;

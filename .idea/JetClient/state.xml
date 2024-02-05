@@ -269,6 +269,43 @@
                 </option>
                 <option name="sortWeight" value="2000000" />
               </folderState>
+              <folderState>
+                <option name="id" value="b7313e25-63e8-4459-9368-79b6d2a33ea3" />
+                <option name="name" value="upload" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="formData">
+                            <list>
+                              <formDataParameterState>
+                                <option name="key" value="file" />
+                                <option name="type" value="FILE" />
+                                <option name="value" value="$USER_HOME$/Desktop/Pendiente/ATP HW - WOM - CEM F2-DATACENTER-MEDv2.docx" />
+                              </formDataParameterState>
+                            </list>
+                          </option>
+                          <option name="type" value="FORM_DATA" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="multipart/form-data" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="ab71c048-c514-4330-a935-9fc2301270b6" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="upload" />
+                      <option name="url" value="{{baseUrl}}/api/v1/upload" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="3000000" />
+              </folderState>
             </list>
           </option>
           <option name="icon" value="TEST_ROOT" />
